@@ -65,8 +65,14 @@ table {
 }
 
 
-
+.table_wrap{
+    overflow-x: auto;
+}
 table {
+    width:100%;
+    white-space: nowrap;
+
+
     border-collapse: collapse;
     border: solid 3px black;
     margin:1rem 0;
@@ -94,3 +100,15 @@ tbody tr:hover{
     background:lightskyblue;
     cursor:pointer;
 }
+
+
+@media (max-width:800px){
+    html{
+        font-size:15px;
+    }
+    .main_area{
+        width:100%;
+    }
+}
+
+

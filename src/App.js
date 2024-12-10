@@ -87,10 +87,12 @@ const App = () => {
             fill : true,
         });
 
+
+
         return (
-            <>
+            <div style={{ position:"relative", width:"100%" }}>
                 <Line data={data} />
-            </>
+            </div>
         );
     }
 
@@ -153,28 +155,31 @@ const App = () => {
                 <hr />
 
                 <h2>詳細データ</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th className="text-center">年目</th>
-                            <th className="text-center">元手</th>
-                            <th className="text-center">利息</th>
-                            <th className="text-center">全体利益</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        { 
-                            futureValueList.map( (fv, index) => (
-                                <tr key={index}>
-                                    <td className="text-center">{index+1}年目</td>
-                                    <td className="text-end">{humanize(fv.pr)}円</td>
-                                    <td className="text-end">{fixed(fv.ga)}円</td>
-                                    <td className="text-end">{fixed(fv.fv)}円</td>
-                                </tr>
-                            )
-                        )}
-                    </tbody>
-                </table>
+
+                <div className="table_wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th className="text-center">年目</th>
+                                <th className="text-center">元手</th>
+                                <th className="text-center">利息</th>
+                                <th className="text-center">全体利益</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            { 
+                                futureValueList.map( (fv, index) => (
+                                    <tr key={index}>
+                                        <td className="text-center">{index+1}年目</td>
+                                        <td className="text-end">{humanize(fv.pr)}円</td>
+                                        <td className="text-end">{fixed(fv.ga)}円</td>
+                                        <td className="text-end">{fixed(fv.fv)}円</td>
+                                    </tr>
+                                )
+                            )}
+                        </tbody>
+                    </table>
+                </div>
 
             </main>
         </>

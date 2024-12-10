@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/accumulation-react-spa/static/css/main.022139da.css",
-    "main.js": "/accumulation-react-spa/static/js/main.3bfd1b91.js",
+    "main.css": "/accumulation-react-spa/static/css/main.f4d9130b.css",
+    "main.js": "/accumulation-react-spa/static/js/main.5bddbe57.js",
     "index.html": "/accumulation-react-spa/index.html",
-    "main.022139da.css.map": "/accumulation-react-spa/static/css/main.022139da.css.map",
-    "main.3bfd1b91.js.map": "/accumulation-react-spa/static/js/main.3bfd1b91.js.map"
+    "main.f4d9130b.css.map": "/accumulation-react-spa/static/css/main.f4d9130b.css.map",
+    "main.5bddbe57.js.map": "/accumulation-react-spa/static/js/main.5bddbe57.js.map"
   },
   "entrypoints": [
-    "static/css/main.022139da.css",
-    "static/js/main.3bfd1b91.js"
+    "static/css/main.f4d9130b.css",
+    "static/js/main.5bddbe57.js"
   ]
 }
