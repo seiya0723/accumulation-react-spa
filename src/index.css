@@ -1,0 +1,96 @@
+html {
+    font-size:18px;
+}
+body{
+    margin:0;
+}
+.header{
+    font-size:2rem;
+    margin:0;
+
+    background:deepskyblue;
+    color:white;
+
+    padding:0.25rem;
+    text-align:center;
+}
+.main_area{
+    width:800px;
+    margin:0 auto;
+}
+
+
+
+.input_area{
+    display:flex;
+    
+}
+.label{
+    width:50%;
+    display:block;
+    font-weight:bold;
+
+}
+.input {
+    width:50%;
+    display:block;
+
+    font-size:1.5rem;
+    margin:0.25rem;
+
+    text-align:right;
+}
+
+.annotate{
+    text-align:right;
+    font-size:0.8rem;
+    color:crimson;
+}
+.result{
+    font-size:1.1rem;
+    font-weight:bold;
+}
+
+
+
+
+table {
+    width:100%;
+}
+.text-center{
+    text-align:center;
+}
+.text-end{
+    text-align:right;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    border: solid 3px black;
+    margin:1rem 0;
+}
+thead {
+    border: solid 3px black;
+}
+th {
+    border: solid 1px black;
+    padding: 0.2rem;
+}
+tr {
+    border: solid 1px black;
+}
+td {
+    border: solid 1px black;
+    padding: 0.2rem;
+}
+
+tr:nth-child(even){
+    background:lightcyan;
+}
+
+tbody tr:hover{
+    background:lightskyblue;
+    cursor:pointer;
+}
